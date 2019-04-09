@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#ADFF2F</color>
+    <color name="orange">#F4A460</color>
+    <color name="yellow">#FFFF00</color>
+
+
+
+    <color name="dark">#803cbcb7</color>
+    <color name="light">#800de6e8</color>
+
+    <color name="status">#00a99d</color>
+
+    <color name="blue">#658192</color>
+    <color name="black">#666666</color>
+
+    <!-- 黑色加深 -->
+
+
+    <color name="black_dark">#1C1C1B</color>
+
+    <color name="line">#E6E6E6</color>
+
+    <color name="back">#008DFF</color>
+
+    <integer-array name="gradient_arc_color">
+        <item>@color/green</item>
+        <item>@color/blue</item>
+        <item>@color/red</item>
+    </integer-array>
+</resources>

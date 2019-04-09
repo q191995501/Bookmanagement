@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:color="#b2b9efff">
+
+
+    <TextView
+        android:id="@+id/a1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:text="图书管理"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/storage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="60dp"
+        android:background="#26b9efff"
+        android:layout_centerHorizontal="true"
+        android:text="图书入库"
+        android:layout_below="@+id/a1"
+        />
+
+
+    <Button
+        android:id="@+id/a2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:background="#26b9efff"
+        android:layout_centerHorizontal="true"
+        android:text="扫码借出图书"
+        android:layout_below="@+id/storage"
+        />
+
+    <Button
+        android:id="@+id/a3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:background="#77b9efff"
+        android:layout_centerHorizontal="true"
+        android:text="扫码归还图书"
+        android:layout_below="@+id/a2"
+        />
+
+    <Button
+        android:id="@+id/a4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:background="#b2b9efff"
+        android:text="查询图书信息"
+        android:layout_below="@+id/a3"
+        />
+
+
+
+
+</RelativeLayout>
